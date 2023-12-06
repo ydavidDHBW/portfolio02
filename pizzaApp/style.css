@@ -1,0 +1,121 @@
+#pizzaweltText {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15pt;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#pizzaBellText {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25pt;
+    text-decoration: underline;
+    margin-left: 50px;
+}
+
+body,
+html {
+    height: 100%;
+    background-image: url("Bilder/Hintergrund.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.seite {
+    height: auto;
+    min-height: 100%;
+}
+
+header {
+    margin-top: -40px;
+    background-color: rgb(255, 136, 0);
+}
+
+#tisch {
+    width: 600px;
+    height: 350px;
+    margin-left: 500px;
+    margin-top: -220px;
+    margin-right: 40px;
+}
+
+h1 {
+    color: white;
+    font-size: 50pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+
+main {
+    padding-bottom: 50px;
+}
+
+.navibar {
+    border: solid;
+    border-style: dashed;
+}
+
+.navibar ul {
+    list-style-type: none;
+    background-color: rgb(255, 136, 0);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.frei {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18pt;
+}
+
+.besetzt {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18pt;
+}
+
+.menuText {
+    color: black;
+    margin-left: 220px;
+    padding: 15px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 18pt;
+}
+
+.apple {
+    padding: 10px;
+}
+
+.playStore {
+    padding: 10px;
+}
+
+.navibar li {
+    float: left;
+}
+
+.aktuelleSeite {
+    color: black;
+}
+
+footer {
+    height: 40px;
+    margin-top: -40px;
+    width: 100%;
+    font-size: 15pt;
+    border: solid;
+    border-style: dashed;
+    background-color: rgb(255, 136, 0);
+}
