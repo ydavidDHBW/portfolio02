@@ -119,3 +119,44 @@ footer {
     border-style: dashed;
     background-color: rgb(255, 136, 0);
 }
+
+#tabelleBestellung {
+    border: double;
+    border-color: white;
+    border-spacing: 10px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: black;
+}
+
+.spaltenÜberschrift {
+    color: white;
+    border: solid;
+    border-color: rgb(163, 236, 18);
+    background-color: black;
+
+}
+
+.spaltenUnterüberschrift {
+    color: white;
+    border: solid;
+    border-color: rgb(163, 236, 18);
+    border-spacing: 5px 5px;
+    background-color: black
+}
+
+.zelle {
+    color: rgb(163, 236, 18);
+    border: outset;
+    border-color: white;
+    border-spacing: 5px 5px;
+    text-align: center;
+}
+
+#caption {
+    color: white;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 2em;
+}

@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Bestellübersicht, Portfolioaufgabe 02, Pizza-App">
+    <title>Pizza App</title>
+</head>
+
+<body>
+    <div class="seite">
+        <h1> Willkommen bei Pizza Bell </h1>
+        <header>
+            <nav class="navibar">
+                <ul>
+                    <li>
+                        <a class="frei" href="index.html">Startseite</a>
+                    </li>
+                    <li>
+                        <a class="frei" href="vorteile.html">Vorteile der App</a>
+                    </li>
+                    <li>
+                        <a class="besetzt" href="übersicht.html">Bestellübersicht</a>
+                    </li>
+                    <li>
+                        <div class="menuText">Download now:</div>
+                    </li>
+                    <li>
+                        <a class="apple" href="https://www.apple.com/de/store"><img src="Bilder/Apple.png" width=55
+                                height=55 alt="Bild"></a>
+                    </li>
+                    <li>
+                        <a class="playStore" href="https://play.google.com/store/apps"><img src="Bilder/PlayStore.png"
+                                width=150 height=55 alt="Bild"></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="übersichtTabelleBestellungenFlex">
+                <table id="tabelleBestellung">
+                    <caption id="caption">Bestellübersicht</caption>
+                    <tr>
+                        <td rowspan="2"></td>
+                        <th colspan="2" class="spaltenÜberschrift">Name</th>
+                        <th colspan="4" class="spaltenÜberschrift">Anschrift</th>
+                        <th colspan="3" class="spaltenÜberschrift">Ist Student?</th>
+                        <th colspan="5" class="spaltenÜberschrift"> Pizza</th>
+                    </tr>
+                    <tr>
+                        <th class="spaltenUnterüberschrift">Vorname</th>
+                        <th class="spaltenUnterüberschrift">Nachname</th>
+                        <th class="spaltenUnterüberschrift">Straße</th>
+                        <th class="spaltenUnterüberschrift">Hausnummer</th>
+                        <th class="spaltenUnterüberschrift">PLZ</th>
+                        <th class="spaltenUnterüberschrift">Ort</th>
+                        <th class="spaltenUnterüberschrift">Matrikelnummer</th>
+                        <th class="spaltenUnterüberschrift">Studienort</th>
+                        <th class="spaltenUnterüberschrift">false</th>
+                        <th class="spaltenUnterüberschrift">Salami</th>
+                        <th class="spaltenUnterüberschrift">Schinken</th>
+                        <th class="spaltenUnterüberschrift">Käse</th>
+                        <th class="spaltenUnterüberschrift">Mais</th>
+                        <th class="spaltenUnterüberschrift">Ist scharf?</th>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td class="zelle"> Max</td>
+                        <td class="zelle"> Mustermann</td>
+                        <td class="zelle"> Bahnhofstraße</td>
+                        <td class="zelle">12</td>
+                        <td class="zelle">39106</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle">232097</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td class="zelle"> Max</td>
+                        <td class="zelle"> Mustermann</td>
+                        <td class="zelle"> Bahnhofstraße</td>
+                        <td class="zelle">12</td>
+                        <td class="zelle">39106</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle"></td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td class="zelle"> Max</td>
+                        <td class="zelle"> Mustermann</td>
+                        <td class="zelle"> Bahnhofstraße</td>
+                        <td class="zelle">12</td>
+                        <td class="zelle">39106</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle">232097</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td class="zelle"> Max</td>
+                        <td class="zelle"> Mustermann</td>
+                        <td class="zelle"> Bahnhofstraße</td>
+                        <td class="zelle">12</td>
+                        <td class="zelle">39106</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle">232097</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td class="zelle"> Max</td>
+                        <td class="zelle"> Mustermann</td>
+                        <td class="zelle"> Bahnhofstraße</td>
+                        <td class="zelle">12</td>
+                        <td class="zelle">39106</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle"></td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td class="zelle"> Max</td>
+                        <td class="zelle"> Mustermann</td>
+                        <td class="zelle"> Bahnhofstraße</td>
+                        <td class="zelle">12</td>
+                        <td class="zelle">39106</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle">232097</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td class="zelle"> Max</td>
+                        <td class="zelle"> Mustermann</td>
+                        <td class="zelle"> Bahnhofstraße</td>
+                        <td class="zelle">12</td>
+                        <td class="zelle">39106</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle">232097</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td class="zelle"> Max</td>
+                        <td class="zelle"> Mustermann</td>
+                        <td class="zelle"> Bahnhofstraße</td>
+                        <td class="zelle">12</td>
+                        <td class="zelle">39106</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle"></td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td class="zelle"> Max</td>
+                        <td class="zelle"> Mustermann</td>
+                        <td class="zelle"> Bahnhofstraße</td>
+                        <td class="zelle">12</td>
+                        <td class="zelle">39106</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle">232097</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td class="zelle"> Max</td>
+                        <td class="zelle"> Mustermann</td>
+                        <td class="zelle"> Bahnhofstraße</td>
+                        <td class="zelle">12</td>
+                        <td class="zelle">39106</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle">232097</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td class="zelle"> Max</td>
+                        <td class="zelle"> Mustermann</td>
+                        <td class="zelle"> Bahnhofstraße</td>
+                        <td class="zelle">12</td>
+                        <td class="zelle">39106</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle"></td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td class="zelle"> Max</td>
+                        <td class="zelle"> Mustermann</td>
+                        <td class="zelle"> Bahnhofstraße</td>
+                        <td class="zelle">12</td>
+                        <td class="zelle">39106</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle">232097</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td class="zelle"> Max</td>
+                        <td class="zelle"> Mustermann</td>
+                        <td class="zelle"> Bahnhofstraße</td>
+                        <td class="zelle">12</td>
+                        <td class="zelle">39106</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle">232097</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td class="zelle"> Max</td>
+                        <td class="zelle"> Mustermann</td>
+                        <td class="zelle"> Bahnhofstraße</td>
+                        <td class="zelle">12</td>
+                        <td class="zelle">39106</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle"></td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td class="zelle"> Max</td>
+                        <td class="zelle"> Mustermann</td>
+                        <td class="zelle"> Bahnhofstraße</td>
+                        <td class="zelle">12</td>
+                        <td class="zelle">39106</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle">232097</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td class="zelle"> Max</td>
+                        <td class="zelle"> Mustermann</td>
+                        <td class="zelle"> Bahnhofstraße</td>
+                        <td class="zelle">12</td>
+                        <td class="zelle">39106</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle">232097</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td class="zelle"> Max</td>
+                        <td class="zelle"> Mustermann</td>
+                        <td class="zelle"> Bahnhofstraße</td>
+                        <td class="zelle">12</td>
+                        <td class="zelle">39106</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle"></td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td class="zelle"> Max</td>
+                        <td class="zelle"> Mustermann</td>
+                        <td class="zelle"> Bahnhofstraße</td>
+                        <td class="zelle">12</td>
+                        <td class="zelle">39106</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle">232097</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td class="zelle"> Max</td>
+                        <td class="zelle"> Mustermann</td>
+                        <td class="zelle"> Bahnhofstraße</td>
+                        <td class="zelle">12</td>
+                        <td class="zelle">39106</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle">232097</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td class="zelle"> Max</td>
+                        <td class="zelle"> Mustermann</td>
+                        <td class="zelle"> Bahnhofstraße</td>
+                        <td class="zelle">12</td>
+                        <td class="zelle">39106</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle"></td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td class="zelle"> Max</td>
+                        <td class="zelle"> Mustermann</td>
+                        <td class="zelle"> Bahnhofstraße</td>
+                        <td class="zelle">12</td>
+                        <td class="zelle">39106</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle">232097</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td class="zelle"> Max</td>
+                        <td class="zelle"> Mustermann</td>
+                        <td class="zelle"> Bahnhofstraße</td>
+                        <td class="zelle">12</td>
+                        <td class="zelle">39106</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle">232097</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td class="zelle"> Max</td>
+                        <td class="zelle"> Mustermann</td>
+                        <td class="zelle"> Bahnhofstraße</td>
+                        <td class="zelle">12</td>
+                        <td class="zelle">39106</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle"></td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td class="zelle"> Max</td>
+                        <td class="zelle"> Mustermann</td>
+                        <td class="zelle"> Bahnhofstraße</td>
+                        <td class="zelle">12</td>
+                        <td class="zelle">39106</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle">232097</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td class="zelle"> Max</td>
+                        <td class="zelle"> Mustermann</td>
+                        <td class="zelle"> Bahnhofstraße</td>
+                        <td class="zelle">12</td>
+                        <td class="zelle">39106</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle">232097</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td class="zelle"> Max</td>
+                        <td class="zelle"> Mustermann</td>
+                        <td class="zelle"> Bahnhofstraße</td>
+                        <td class="zelle">12</td>
+                        <td class="zelle">39106</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle"></td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td class="zelle"> Max</td>
+                        <td class="zelle"> Mustermann</td>
+                        <td class="zelle"> Bahnhofstraße</td>
+                        <td class="zelle">12</td>
+                        <td class="zelle">39106</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle">232097</td>
+                        <td class="zelle">Magdeburg</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                        <td class="zelle"></td>
+                        <td class="zelle">X</td>
+                        <td class="zelle">X</td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </div>
+</body>
+
+<footer>
+    &copy; 2023 copyright reserved |
+    author: Yannic David |
+    <a href="mailto:pizzaBell@aol.com.de">pizzaBell@aol.com</a>
+</footer>
+
+</html>
